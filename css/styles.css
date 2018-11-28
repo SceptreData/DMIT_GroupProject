@@ -4,7 +4,8 @@ body {
 
 #page {
 	margin:0 auto;
-	width:960px;
+	min-width:360px;
+	max-width:960px;
 	font-size: 100%;
 	line-height: 1.5;
 	font-family: 'Raleway', sans-serif;
@@ -18,6 +19,7 @@ body {
 	margin-right: auto;
 	background-image: url(../img/header-3d.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 h1 {
@@ -77,6 +79,9 @@ h1 {
 
 /* Content Controls */
 
+h3 {
+	margin-left: 15px;
+}
 .content-source {
 	font-size: 12px;
 }
