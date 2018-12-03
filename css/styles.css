@@ -98,3 +98,11 @@ h3 {
 .source-list {
 	font-size: 12px;
 }
+
+.infographic {
+	max-width: 300px;
+	max-height: 300px;
+	margin-right: 30px;
+}
+
+
