@@ -96,20 +96,36 @@ h3 {
 }
 
 .source-list {
+	list-style-type: circle;
 	font-size: 12px;
 }
 
+.info-section {
+	height: 350px;
+}
+
+.info-section p {
+	padding-top: 50px
+}
 .infographic {
 	max-width: 300px;
 	max-height: 300px;
 	margin-right: 30px;
 }
 
+.big-infographic {
+	max-width: 375px;
+}
+
+.big-pic {
+	max-width: 600px;
+}
+
 .mini-list {
-	margin: 0 auto;
-	max-width: 450px;
+	float: left;
+	width: 200px;
 	height: 15rem;
-	padding-right:30px;
+	margin-left: 15%;
 }
 
 /*.mini-list li {
